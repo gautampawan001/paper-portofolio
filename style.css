@@ -1,0 +1,384 @@
+@font-face {
+    font-family:domain ;
+    src: url(./Domain.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: #222;
+    overflow-x: hidden;
+}
+#page1{
+    height: 140vh;
+    width: 100vw;
+    background-color:#C6BFB4;
+    position: relative;
+    overflow:hidden ;
+}
+#nav{
+    height: 110px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid #222;
+}
+#nav img{
+    height: 30px;
+    width: 30%;
+}
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i{
+    width: 30%;
+    text-align:right;
+}
+ #elems{
+    /* background-color: red; */
+    height: 430px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#elem1{
+    height: 100%;
+    width: 30%;
+    /* background-color: red; */
+    
+
+}
+#elem2{
+    height: 100%;
+    width: 30%;
+    border-right:2px solid #8c8989 ;
+    border-left:2px solid #838080 ;
+    padding: 20px 60px;
+    text-align: center;
+    /* background-color: rgb(54, 20, 222); */
+
+}
+#elem3{
+    height: 100%;
+    width: 30%;
+    /* background-color: red; */
+
+}
+#elem1 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+} 
+
+#image-div img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: all ease 0.5s;
+}
+#elem3 #image-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+} 
+#image-div:hover img{
+    scale: 1.1;
+}
+#elem1 h4{
+    font-size: 24px;
+    margin-top:20px;
+    margin-bottom:10px ;
+    font-family: canopee;
+}
+#elem1 h4 span{
+    background-color:#B43B12;
+    color: #C6BFB4;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius:5px ;
+}
+#elem1 p{
+    font-size: 22px;
+    font-family: domain;
+    font-weight: 100;
+    color: #656565;
+}
+
+#elem3 h4{
+    font-size: 24px;
+    margin-top:20px;
+    margin-bottom:10px ;
+    font-family: canopee;
+}
+#elem3 h4 span{
+    background-color:#B43B12;
+    color: #C6BFB4;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius:5px ;
+}
+#elem3 p{
+    font-size: 22px;
+    font-family: domain;
+    font-weight: 100;
+    color: #656565;
+}
+#elem2 h2{
+    font-family: canopee;
+    font-size: 75px;
+    font-weight: 100;
+
+}
+#elem2 h3{
+    font-family: domain;
+    font-size: 20px;
+    font-weight: 100;
+    color: #403e3e;
+    margin: 20px 0;
+
+}
+#elem2 h6{
+    font-family: domain;
+    font-size: 20px;
+    font-weight: 100;
+    color: #403e3e;
+
+}
+#page1 h1{
+    font-size:500px;
+    font-weight: 100;
+    font-family: canopee;
+    background-color:#1C1C19 ;
+    color: #C6BFB4;
+    line-height: 400px;
+    width: 97%;
+    margin-left: 2%;
+    letter-spacing: -10px;
+
+}
+#page2{
+    height: 150vh;
+    width: 100vw;
+    background-color:#C6BFB4;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px 10px;
+}
+
+#page2-left{
+    height: 100%;
+    width: 35%;
+    padding-right: 50px;
+    border-right: 1px solid #222;
+    /* background-color: red; */
+
+    
+}
+#page2-left h3{
+    font-size: 100px;
+    font-family: canopee;
+    text-align: center;
+    line-height: 130px;
+    font-weight: 100;
+}
+#page2-left span{
+    font-size: 180px;
+    font-weight: 200;
+}
+#page2-left img{
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2-left p{
+    font-size: 34px;
+    font-family:domain ;
+    color: #2f2f2f;
+    margin-top:20px ;
+
+}
+
+#page2-right{
+    height: 100%;
+    width: 70%;
+    padding: 0 60px;
+
+}
+#page2-right img{
+    height: 53%;
+    object-fit: cover;
+    width: 100%;
+}
+#page2-right h1{
+    font-family: canopee;
+    font-size: 105px;
+    letter-spacing:-1px;
+    font-weight: 100;
+}
+#page3{
+   
+    background-color: #C4BCB3;
+    padding: 53px 0;
+    position: relative;
+}
+#page3 h1{
+    font-size: 400px;
+    font-weight: 100;
+    background-color: #1C1C19;
+    width:fit-content;
+    color: #C4BCB3;
+    font-family: canopee;
+    letter-spacing:-10px ;
+    margin-left: 2%;
+    padding: 0 20px;
+    line-height: 400px;
+}
+#page3 img{
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    right: 3%;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #C4BCB3;
+    justify-content: space-between;
+}
+#page4-left{
+    width: 60%;
+    height: 100%;
+    padding:  80px 60px;
+}
+#page4-left img{
+    height: 100%;
+    width: 110%;
+    object-fit: cover;
+}
+#page4-right{
+    width: 40%;
+    height: 100%;
+    padding: 80px;
+    padding:  80px 60px;
+
+}
+#page4-right p{
+
+    font-size: 30px;
+    font-family: domain;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin-bottom:50px ;
+    line-height: 35px;
+}
+#page4-right #anda{
+    height: 200px;
+    width: 100%;
+    background-color:#CAC1B6 ;
+    border-radius: 50%;
+    border: 1px solid #403f3f80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+#anda h1{
+    font-size: 80px;
+    font-family: canopee;
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.6s;
+    font-weight: 100;
+    transform:translateX(-20%);
+}
+#anda img{
+   /* height: 80px; */
+   height: 50px;
+   transform:translateX(-120%);
+   transition: all ease 0.6s;
+}
+
+#anda:hover img{
+    transform:translateX(75%);
+}
+#anda:hover h1{
+    transform:translateX(100%);
+}
+#page5{
+    padding: 25px 0px;
+    width: 100%;
+    background-color: #C4BCB3;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-top:1px solid #2f2f2f ;
+    border-bottom: 1px solid #2f2f2f;
+}
+#page5 h1{
+    font-size: 100px;
+    font-family: domain;
+    font-weight: 100;
+    display: inline-block;
+    margin-right: 30px;
+    animation-name: scroll;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+
+}
+#page5::-webkit-scrollbar{
+    display: none;
+}
+#page5 h1 span{
+    font-family: canopee;
+    background-color: #2f2f2f;
+    color: #C4BCB3;
+    padding: 0px 12px;
+}
+#page6{
+    height: 100px;
+    width: 100%;
+    background-color: #C4BCB3;
+
+}
+@keyframes scroll {
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(calc(-100% - 34px));
+
+    }
+    
+}
+#page5:hover h1{
+    animation-play-state: paused;
+}
